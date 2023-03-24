@@ -8,4 +8,11 @@ function toggleTheme() {
       body.style.colorScheme = 'light';
     }
   }
+
+const themeBtn = document.querySelector('#theme-btn');
+const content = document.querySelector('#content');
+
+themeBtn.addEventListener('click', () => {
+  content.classList.toggle('light');
+});
   

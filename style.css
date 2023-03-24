@@ -113,3 +113,8 @@ footer{
     background-color: #23252f;
     height: 150px;
 }
+
+body.light {
+  background-color: #fff;
+  color: #333;
+}
